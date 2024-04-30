@@ -1,11 +1,16 @@
-function findlargeword(str){
-      let newstrr=str.split(" ")
-     // console.log(largewordarr);
-
-    let newarr=newstrr.reduce((accumulatevalue,currentvalue)=>{
-        return accumulatevalue.length>currentvalue.length ? accumulatevalue:currentvalue
+function findLargeword(str){
+    let newstrarr=str.split(" ")
+    //console.log(newstrarr);
+    
+    
+    let Largeword =newstrarr.reduce((current,accumulator)=>{
+    
+        return accumulator.length>current.length ? accumulator:current
     })
-    return newarr
-}
-result=findlargeword("Rahul is a good developer")
-console.log(result);
+    
+    return Largeword 
+    
+    }
+    
+    result=findLargeword("chaitanya is very good Developer")
+    console.log(result);
