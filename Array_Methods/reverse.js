@@ -23,7 +23,7 @@
 //find the difference between highest and lowest num
 
 
-let str ="chaitanya is a good boy"
+let str ="Rahul is a good developer"
 function chai(){
     let d = str.split(" ")
     let h = d.sort((a,b)=>b.length-a.length)
