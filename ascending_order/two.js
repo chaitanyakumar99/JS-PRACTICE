@@ -1,3 +1,7 @@
+
+// sort :- It is used to ascending order and descending order
+
+
 // ascending order :-
 
 // const nbr=[50,20,70,30,15,80,2]
