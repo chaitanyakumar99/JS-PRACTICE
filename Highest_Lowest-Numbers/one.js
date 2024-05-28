@@ -16,8 +16,14 @@ console.log(maxnbr);
 
 // Lowest Number :-
 
+// const nbr=[1,55,90,20,40,80,60]
+
+// const result=Math.min(...nbr);
+// console.log(result);
+
 const nbr=[1,55,90,20,40,80,60]
 
-const result=Math.min(...nbr);
-console.log(result);
+const sortarr1=nbr.sort((a,b)=>b-a)
+const minnbr=sortarr1[sortarr1.length -1]
+console.log(minnbr);
 
