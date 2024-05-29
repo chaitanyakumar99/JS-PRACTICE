@@ -11,7 +11,8 @@
 const nbr=[1,55,90,20,40,80,60]
 
 const sortarr=nbr.sort((a,b)=>a-b)
-const Maxnbr=sortarr[sortarr.length-1]
+console.log(sortarr);
+const Maxnbr=sortarr[sortarr.length-3] // length -1 is idexing
 const Minnbr=sortarr[0]
 
 console.log(Maxnbr - Minnbr);

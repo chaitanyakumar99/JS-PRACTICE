@@ -10,7 +10,7 @@
 const nbr1=[1,55,90,20,40,80,60]
 
 const sortarr=nbr1.sort((a,b)=>a-b)
-const maxnbr=sortarr[sortarr.length-1]
+const maxnbr=sortarr[sortarr.length-1]  //length -1 is indexing
 console.log(maxnbr);
 
 
@@ -24,6 +24,7 @@ console.log(maxnbr);
 const nbr=[1,55,90,20,40,80,60]
 
 const sortarr1=nbr.sort((a,b)=>b-a)
-const minnbr=sortarr1[sortarr1.length -1]
+console.log(sortarr1);
+const minnbr=sortarr1[sortarr1.length -1] // length -1 is indexing
 console.log(minnbr);
 
