@@ -4,6 +4,7 @@
 
 
 
+
 //second highest number
 
 const arr=[10,5,7,9,19,15]
