@@ -1,12 +1,12 @@
 // ascending order
 
-numbers=[5,9,2,100,40,1,6]
+numbers=[5,9,2,100,40,1,6]   // lowest to highest
 numbers.sort((a,b)=>a-b)
 console.log(numbers);
 
-// descending oreder
+// descending order
 
-  numbers=[100,600,800,500]
+  numbers=[100,600,800,500]   // highest to lowest
   numbers.sort((a,b)=>b-a)
   console.log(numbers);
 
