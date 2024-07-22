@@ -48,3 +48,6 @@ function lowestnbr(arr1){
 }
 
 console.log(lowestnbr(arr1));
+
+
+

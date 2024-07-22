@@ -15,4 +15,11 @@ console.log(sortarr);
 const Maxnbr=sortarr[sortarr.length-3] // length -1 is idexing
 const Minnbr=sortarr[0]
 
-console.log(Maxnbr - Minnbr);
+console.log(Maxnbr - Minnbr); 
+
+
+
+
+
+
+
