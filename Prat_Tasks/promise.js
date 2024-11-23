@@ -9,7 +9,7 @@ let makeTea = new Promise((resolve, reject) => {
 });
 
 makeTea
-    .then((message) => {
+ .then((message) => {
         console.log(message); 
     })
     .catch((error) => {
