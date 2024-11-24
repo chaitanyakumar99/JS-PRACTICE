@@ -4,7 +4,7 @@ let tea=new Promise((resolve,reject)=>{
         resolve("tea is reddy...!")
     }
     else{
-        reject("tea is not available")
+        reject("tea is not available...")
     }
 })
 
