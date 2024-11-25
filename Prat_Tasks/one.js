@@ -1,27 +1,3 @@
-// By using spread operator we can 
-
-
-// 1.create array
-// 2.merge array
-// 3.extend array
-
-
-
-// creating array and merge array
-
-// const emp={
-//     myname:"prostack",
-//     age:2019
-//     }
-//     const info={
-//     Location:"Bangalore"	
-//     }
-
-//     const result={...emp,...info}
-//     console.log(result);
-
-
-// extending array
 
 const emp={
     name:"Rahul",
