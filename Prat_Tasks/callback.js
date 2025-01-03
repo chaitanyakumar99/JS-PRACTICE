@@ -12,7 +12,7 @@
 
 let addNbrs=(nbr1,nbr2,callback)=>{
     let sum =nbr1+nbr2;
-    callback(sum)
+    callback1(sum)
 }
 
 let getDetails=(result)=>{
